@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food Judge </title>
+</head>
+<body>
+    
+    <h3>Score Chart</h3>
+    
+    <hr>
+
+    <form action='/set' method = 'POST'>
+        
+        Store Name <input type="text" name="string1"/>
+        <br>
+        <br>
+        Score <input type="text" name="string2"/>
+        <br>
+        <br>
+        
+        <button>submit</button>
+        <br>
+        <br>
+        
+        <p>Current Data: {{ current_data_str }}</p>
+           
+    </form>
+    
+    
+</body>
+</html>
